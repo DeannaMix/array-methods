@@ -24,6 +24,11 @@ planets.forEach(gasball => {
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
 */
 
+const upperGasballs = planets.map(gasball => {
+    return gasball.toUpperCase()
+})
+console.log(upperGasballs)
+
 
 /*
     Use the filter method to create a new array that
